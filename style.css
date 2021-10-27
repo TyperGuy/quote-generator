@@ -28,4 +28,12 @@ body{
   width: 100%;
   height: 80%;
   border-left: 1px solid #ff0426;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote{
+  width: 90%;
+  height: 90%;
+  text-align: justify;
 }
