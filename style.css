@@ -1,10 +1,17 @@
 body{
+  margin: 0;
+  padding: 0;
+}
+.main{
  background:linear-gradient(to right, #ee0979,#ff0426);
-
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 .quoter{
   width: 40vw;
   height: 200px;
   background-color: rgba(0, 0, 0, .5);
-  margin: auto auto;
 }
