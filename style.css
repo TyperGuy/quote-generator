@@ -11,12 +11,14 @@ body{
  align-items: center;
 }
 .quoter{
-  width: 40vw;
+  width: 80vw;
   height: 50vh;
   background-color: rgba(0, 0, 0, .5);
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .controls-container{
   width: 100%;
@@ -25,15 +27,18 @@ body{
   
 }
 .quote-container{
-  width: 100%;
-  height: 80%;
+  width: 80%;
   border-left: 1px solid #ff0426;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
 }
 .quote{
-  width: 90%;
-  height: 90%;
+  margin-left: 10px;
   text-align: justify;
+}
+.author-container{
+  width: 80%;
+  padding-top: 20px;
+  display: flex;
+  color: #fff;
 }
