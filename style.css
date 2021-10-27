@@ -22,8 +22,10 @@ body{
   width: 100%;
   height: 20%;
   border-radius: 0 0 1rem 1rem;
+  
 }
 .quote-container{
   width: 100%;
   height: 80%;
+  border-left: 1px solid #ff0426;
 }
