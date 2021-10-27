@@ -1,0 +1,10 @@
+body{
+ background:linear-gradient(to right, #ee0979,#ff0426);
+
+}
+.quoter{
+  width: 40vw;
+  height: 200px;
+  background-color: rgba(0, 0, 0, .5);
+  margin: auto auto;
+}
