@@ -24,6 +24,7 @@ body{
   width: 100%;
   height: 20%;
   border-radius: 0 0 1rem 1rem;
+  background-color: aqua;
   
 }
 .quote-container{
@@ -37,10 +38,15 @@ body{
 }
 .author-container{
   width: 80%;
-  padding-top: 20px;
   display: flex;
   color: #fff;
+  align-items: center;
+  background-color: #ff0426;
+  margin-bottom: 2rem;
 }
 p{
+  font-size: 1.5rem;
+}
+span{
   font-size: 1.5rem;
 }
