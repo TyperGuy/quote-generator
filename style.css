@@ -45,6 +45,7 @@ body{
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+  font-style: italic;
 }
 p{
   font-size: 1.5rem;
