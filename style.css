@@ -5,7 +5,6 @@ body{
   font-family: 'Nunito', sans-serif;
 }
 .main{
-
  width: 100vw;
  height: 100vh;
  display: flex;
@@ -21,7 +20,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
- box-shadow: 0px 0px 30px #ee097988;
+  box-shadow: 0px 0px 40px #ee097988;
 }
 .controls-container{
   height: 20%;
