@@ -21,6 +21,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ box-shadow: 0px 0px 20px #ee097988;
 }
 .controls-container{
   height: 20%;
