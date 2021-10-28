@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Nunito', sans-serif;
 }
 .main{
 
@@ -13,7 +15,7 @@ body{
 .quoter{
   width: 80vw;
   height: 50vh;
-   background:linear-gradient(to right, #ee0979,#ff0426);
+  background:linear-gradient(to right, #ee0979,#ff0426);
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -56,3 +58,4 @@ i{
 }
 .fa-twitter{color: #00ffff;}
 .fa-sync-alt{color: #ffffff;}
+.fa-copy{color: #fff;}
