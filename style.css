@@ -21,7 +21,7 @@ body{
   align-items: center;
 }
 .controls-container{
-  width: 100%;
+  width: 50%;
   height: 20%;
   border-radius: 0 0 1rem 1rem;
   background-color: aqua;
