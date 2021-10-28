@@ -21,10 +21,10 @@ body{
   align-items: center;
 }
 .controls-container{
-  width: 50%;
   height: 20%;
   border-radius: 0 0 1rem 1rem;
-  background-color: aqua;
+  display: flex;
+  align-items: center;
   
 }
 .quote-container{
@@ -49,4 +49,8 @@ p{
 }
 span{
   font-size: 1.5rem;
+}
+i{
+  font-size: 2.5rem;
+  margin: 1rem;
 }
