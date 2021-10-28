@@ -31,7 +31,7 @@ body{
   width: 80%;
   height: 70%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 .quote{
   text-align: justify;
@@ -41,7 +41,7 @@ body{
   display: flex;
   color: #fff;
   align-items: center;
-  background-color: #ff0426;
+  justify-content: center;
   margin-bottom: 2rem;
 }
 p{
