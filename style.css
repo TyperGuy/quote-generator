@@ -3,7 +3,7 @@ body{
   padding: 0;
 }
 .main{
- background:linear-gradient(to right, #ee0979,#ff0426);
+
  width: 100vw;
  height: 100vh;
  display: flex;
@@ -13,7 +13,7 @@ body{
 .quoter{
   width: 80vw;
   height: 50vh;
-  background-color: rgba(0, 0, 0, .5);
+   background:linear-gradient(to right, #ee0979,#ff0426);
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -54,3 +54,5 @@ i{
   font-size: 2.5rem;
   margin: 1rem;
 }
+.fa-twitter{color: #00ffff;}
+.fa-sync-alt{color: #ffffff;}
