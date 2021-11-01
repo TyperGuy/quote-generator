@@ -13,7 +13,6 @@ body{
 }
 .quoter{
   width: 80vw;
-  height: 60vh;
   background:linear-gradient(to right, #ee0979,#ff0426);
   border-radius: 1rem;
   display: flex;
@@ -21,6 +20,7 @@ body{
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 40px #ee097988;
+  margin:20px;
 }
 .controls-container{
   height: 20%;
@@ -69,16 +69,3 @@ i{
 .fa-copy:hover{color: #212121;}
 .fa-sync-alt:hover{color: #4df70a;}
 
-@media only screen and (max-width: 974px) {
-  .quoter{
-  width: 80vw;
-  height: 70vh;
-  background:linear-gradient(to right, #ee0979,#ff0426);
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 0px 40px #ee097988;
-}
-}
