@@ -69,10 +69,10 @@ i{
 .fa-copy:hover{color: #212121;}
 .fa-sync-alt:hover{color: #4df70a;}
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 974px) {
   .quoter{
   width: 80vw;
-  height: 60vh;
+  height: 70vh;
   background:linear-gradient(to right, #ee0979,#ff0426);
   border-radius: 1rem;
   display: flex;
