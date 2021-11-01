@@ -1,6 +1,6 @@
 //get quote from API
 
-async function getQuoteAPI(){
+async function getQuotefromAPI(){
 
   const apiUrl = 'http://api.forimastic.com/api/1.0/?method=getQuote?&lang=en&format=json';
 
@@ -11,3 +11,7 @@ async function getQuoteAPI(){
   }
 
 }
+
+//call on load
+
+getQuotefromAPI();
