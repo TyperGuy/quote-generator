@@ -12,6 +12,7 @@ async function getQuotefromAPI(){
     
   } catch (error) {
     console.log('Uppps, aconteceu algun erro',error)
+    getQuotefromAPI();
   }
 
 }
