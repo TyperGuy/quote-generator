@@ -1,0 +1,1 @@
+const refreshBtn = document.querySelector('#nextBtn');
