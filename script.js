@@ -1,3 +1,9 @@
+const refreshBtn = document.querySelector('#nextBtn');
+const copyBtn = document.querySelector('#copyBtn');
+const shareBtn = document.querySelector('#shareBtn');
+const quoteText = document.querySelector('#quote')
+
+
 //get quote from API
 
 async function getQuotefromAPI(){
@@ -8,7 +14,9 @@ async function getQuotefromAPI(){
   try {
     const response = await fetch(proxyUrl + apiUrl);
     const data = await response.json();
-    console.log(data);
+    quoteText.innerText = data.quoteText;
+    console.log(data)
+    
     
   } catch (error) {
     console.log('Uppps, aconteceu algun erro',error)
@@ -17,6 +25,7 @@ async function getQuotefromAPI(){
 
 }
 
-//call on load
 
 getQuotefromAPI();
+
+
