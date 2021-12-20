@@ -32,5 +32,5 @@ copyBtn.addEventListener('click', copyTo);
 
 
 
-
+getQuotefromAPI();
 
