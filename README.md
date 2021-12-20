@@ -10,7 +10,7 @@
 
 ## APIS e serviços usasos
 
-<span>Acesso Temporário ao Servidor: </span>`https://cors-anywhere.herokuapp.com` 
+<span>Acesso Temporário ao Servidor: </span>`https://cors-anywhere.herokuapp.com` </br>
 <span>API usada: </span>`http://api.forismatic.com`
 
 
