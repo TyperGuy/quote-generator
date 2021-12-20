@@ -29,6 +29,6 @@ async function getQuotefromAPI(){
 nextBtn.addEventListener('click', getQuotefromAPI);
 
 
-//getQuotefromAPI();
+
 
 
