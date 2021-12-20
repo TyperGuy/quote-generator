@@ -14,5 +14,5 @@
 <span>API usada: </span>`http://api.forismatic.com`
 
 ## Estructura de Pasta
-
+<img style="width:70px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/folders.png">
 
