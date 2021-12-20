@@ -23,14 +23,9 @@ async function getQuotefromAPI(){
 
 }
 
-function copyTo(){
- 
-    //window.clipboardData.setData("quote", quoteText.value);
-    navigator.clipboard.writeText(quoteText.textContent);
-  
+const copyTo =()=>navigator.clipboard.writeText(quoteText.textContent);
 
-  
-}
+
 
 nextBtn.addEventListener('click', getQuotefromAPI);
 copyBtn.addEventListener('click', copyTo);
