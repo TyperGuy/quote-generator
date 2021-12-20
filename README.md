@@ -10,6 +10,7 @@
 
 ## APIS consultadas
 
-<span>Acesso Temporário ao Servidor: </span>`https://cors-anywhere.herokuapp.com`
-'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
+<span>Acesso Temporário ao Servidor: </span>`https://cors-anywhere.herokuapp.com` 
+<span>API usada: </span>`http://api.forismatic.com`
+
 
