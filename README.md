@@ -8,7 +8,7 @@
   <img style="width:70px;" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
 </div>
 
-## APIS consultadas
+## APIS e serviços usasos
 
 <span>Acesso Temporário ao Servidor: </span>`https://cors-anywhere.herokuapp.com` 
 <span>API usada: </span>`http://api.forismatic.com`
