@@ -22,6 +22,7 @@ async function getQuotefromAPI(){
 
 }
 
+
 const copyTo =()=>navigator.clipboard.writeText(quoteText.textContent);
 
 
