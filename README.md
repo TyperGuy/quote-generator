@@ -18,6 +18,7 @@
 
 ## Classes e Funões
 ### getQuoteFromAPI()
+<p> Função responsável por fazer requisição a API</p>
 <img style="width:300px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/getQuoteFromAPI.png">
 
 ### getQuoteFromAPI()
