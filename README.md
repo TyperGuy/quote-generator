@@ -18,5 +18,5 @@
 
 ## Classes e Funões
 ### getQuoteFromAPI()
-<img style="width:200px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/folders.png">
+<img style="width:200px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/getQuoteFromAPI.png">
 
