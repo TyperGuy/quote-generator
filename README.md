@@ -26,4 +26,4 @@
 <img style="width:500px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/copy.png">
 
 ###  twitQuote()
-<p>Função responsável por copiar a Quote para a zona de transferência da memoria</p>
+<p>Função responsável por partilhar a quote no Twitter</p>
