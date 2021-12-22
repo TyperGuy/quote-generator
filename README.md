@@ -14,5 +14,14 @@
 <span>API usada: </span>`http://api.forismatic.com`
 
 ## Estructura de Pasta
+<img style="width:200px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/folders.png">
 
+## Classes e Funões
+### getQuoteFromAPI()
+<p> Função responsável por fazer requisição a API</p>
+<img style="width:300px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/getQuoteFromAPI.png">
+
+### getQuoteFromAPI()
+<p> Função responsável por copiar a Quote para a zona de transferência da memoria</p>
+<img style="width:400px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/copy.png">
 
