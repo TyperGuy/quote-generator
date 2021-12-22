@@ -27,8 +27,9 @@ const copyTo =()=>navigator.clipboard.writeText(quoteText.textContent);
 
 const twitQuote = ()=>{
     const quote = quoteText.innerText;
-    const autothor = quoteAuthor.innerHTML;
-    //const url = 'https://twitter.com/intent/tweet'
+    const author = quoteAuthor.innerHTML;
+    const url = `https://twitter.com/intent/tweet?text=${quote} -  ${author}`;
+    window.open(url, '_blank');
 }
 
 
