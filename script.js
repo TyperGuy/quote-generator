@@ -28,13 +28,14 @@ const copyTo =()=>navigator.clipboard.writeText(quoteText.textContent);
 const twitQuote = ()=>{
     const quote = quoteText.innerText;
     const author = quoteAuthor.innerHTML;
-    const url = `https://twitter.com/intent/tweet?text=${quote} -  ${author}`;
+    const url = `https://twitter.com/intent/tweet?text=${quote} -  ${'Author: ' +author}`;
     window.open(url, '_blank');
 }
 
 
 nextBtn.addEventListener('click', getQuotefromAPI);
 copyBtn.addEventListener('click', copyTo);
+sreBtn.addEventListener('click',twitQuote);
 
 
 
