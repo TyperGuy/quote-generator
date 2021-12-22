@@ -26,7 +26,9 @@ async function getQuotefromAPI(){
 const copyTo =()=>navigator.clipboard.writeText(quoteText.textContent);
 
 const twitQuote = ()=>{
-    
+    const quote = quoteText.innerText;
+    const autothor = quoteAuthor.innerHTML;
+    //const url = 'https://twitter.com/intent/tweet'
 }
 
 
