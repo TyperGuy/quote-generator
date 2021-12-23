@@ -33,6 +33,8 @@ const twitQuote = ()=>{
 }
 
 
+
+
 nextBtn.addEventListener('click', getQuotefromAPI);
 copyBtn.addEventListener('click', copyTo);
 sreBtn.addEventListener('click',twitQuote);
