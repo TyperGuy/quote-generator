@@ -31,6 +31,8 @@ body{
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
+  font-size: 1.6rem;
+  padding: 10px;
 }
 .controls-container{
   width: 100%;
@@ -40,9 +42,6 @@ body{
   cursor: pointer;
 }
 
-.quote{
-  text-align: justify;
-}
 .author-container{
   display: flex;
   color: #fff;
@@ -50,9 +49,7 @@ body{
   align-self: flex-start;
   font-style: italic;
 }
-p{
-  font-size: 1.6rem;
-}
+
 
 .btn{
   width: 40px;

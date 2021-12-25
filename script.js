@@ -14,7 +14,7 @@ async function getQuotefromAPI(){
       const response = await fetch(proxyUrl + apiUrl);
       const data = await response.json();
       quoteText.innerText = data.quoteText;
-      quoteAuthor.innerText = data.quoteAuthor;
+      quoteAuthor.innerText = "Author:" + " "+data.quoteAuthor;
   } catch (error) {
       console.log('Uppps, aconteceu algun erro',error)
       getQuotefromAPI();
