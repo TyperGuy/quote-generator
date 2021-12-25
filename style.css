@@ -28,6 +28,7 @@ body{
   height: 300px;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
 }
@@ -36,6 +37,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .quote{
@@ -51,12 +53,6 @@ body{
 p{
   font-size: 1.6rem;
 }
-
-i{
-  cursor: pointer;
-}
-
-
 
 .btn{
   width: 40px;
