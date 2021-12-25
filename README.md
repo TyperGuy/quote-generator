@@ -3,9 +3,9 @@
 
 ## Tecnologias usadas
 <div>
-  <img style="width:70px;" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg">
-  <img style="width:70px;" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg">
-  <img style="width:70px;" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
+  <img style="width:50px;" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg">
+  <img style="width:50px;" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg">
+  <img style="width:50px;" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
 </div>
 
 ## APIS e serviços consumidos
@@ -23,5 +23,8 @@
 
 ### getQuoteFromAPI()
 <p> Função responsável por copiar a Quote para a zona de transferência da memoria</p>
-<img style="width:400px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/copy.png">
+<img style="width:500px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/copy.png">
 
+###  twitQuote()
+<p>Função responsável por partilhar a quote no Twitter</p>
+<img style="width:550px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/twitQuote.png">
