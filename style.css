@@ -12,7 +12,7 @@ body{
  align-items: center;
 }
 .quoter{
-  width: 400px;
+  width: 350px;
   height: 500px;
   background:linear-gradient(45deg, #ee0979,#ff0426);
   border-radius: 1rem;
@@ -21,10 +21,11 @@ body{
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px 0px 40px #ee097988;
+  padding: 0 20px;
 }
 .quote-container{
   margin-top: 20px;
-  width: 90%;
+  width: 100%;
   height: 300px;
   display: flex;
   align-items: center;
@@ -43,8 +44,7 @@ body{
   display: flex;
   color: #fff;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 2rem;
+  align-self: flex-start;
   font-style: italic;
 }
 p{
