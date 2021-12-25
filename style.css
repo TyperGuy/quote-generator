@@ -13,7 +13,7 @@ body{
 }
 .quoter{
   width: 350px;
-  height: 500px;
+  height: 450px;
   background:linear-gradient(45deg, #ee0979,#ff0426);
   border-radius: 1rem;
   display: flex;
