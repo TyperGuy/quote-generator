@@ -22,6 +22,7 @@ body{
   justify-content: space-between;
   box-shadow: 0px 0px 40px #ee097988;
   padding: 20px;
+  color: #fff;
 }
 .quote-container{
   width: 100%;
@@ -62,10 +63,24 @@ body{
   font-size: 1.1rem;
   background-color: rgba(0, 0, 0, 0.2);
   color: #212121;
+  transition: all .5s ease-in-out;
 }
-
+.btn:hover{
+  transform: scale(1.1,1.1);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
 #container-control-in{
   display: flex;
   flex-direction: row;
+}
+#nextBtn{
+  transition: all .5s ease-in-out;
+  padding: 8px;
+}
+#nextBtn:hover{
+ 
+  border-radius: .5rem;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
