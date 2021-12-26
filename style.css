@@ -114,4 +114,13 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
+  animation: showToast 2s linear infinite;
+}
+
+@keyframes showToast {
+  0% {top: 0;}
+  25% {top: 10;}
+  50% {top: 20;}
+  75% {top: 30px;}
+  100% { top: 40px; }
 }
