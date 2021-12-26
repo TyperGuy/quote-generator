@@ -8,8 +8,10 @@ body{
  width: 100vw;
  height: 100vh;
  display: flex;
+ flex-direction: column;
  justify-content: center;
  align-items: center;
+ position: relative;
 }
 .quoter{
   width: 350px;
@@ -101,3 +103,15 @@ body{
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+#toast{
+  background-color: #16191b;
+  color: #fff;
+  border-radius: .5rem;
+  z-index: 1;
+  position: absolute;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
