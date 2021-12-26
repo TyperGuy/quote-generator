@@ -37,7 +37,7 @@ body{
   padding: 10px;
   color: #fff;
 }
-.loader{
+#loader{
   align-self: flex-start;
   position: absolute;
   bottom: 15px;

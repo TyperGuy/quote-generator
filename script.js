@@ -3,13 +3,21 @@ const copyBtn = document.querySelector('#copyBtn');
 const sreBtn = document.querySelector('#shareBtn');
 const quoteText = document.querySelector('#quote');
 const quoteAuthor = document.querySelector('#author');
+const spinner = document.getElementById('loader');
 const proxyUrl ='https://cors-anywhere.herokuapp.com/';
 const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
 
 
 //get quote from API
 
+function showSpiner(){
+    if(spinner.hidden)
+        spinner.hidden = false;
+    else
+        spinner.hidden = true;
+}
 async function getQuotefromAPI(){
+   spinner.hidden = false;
    try {
       const response = await fetch(proxyUrl + apiUrl);
       const data = await response.json();
@@ -18,7 +26,9 @@ async function getQuotefromAPI(){
       if(data.quoteAuthor==="")
             quoteAuthor.innerText = "Author:  Unkown";
        else
-            quoteAuthor.innerText = "Author:" + " "+data.quoteAuthor;     
+            quoteAuthor.innerText = "Author:" + " "+data.quoteAuthor; 
+        
+       spinner.hidden = true;      
   } catch (error) {
       console.log('Uppps, aconteceu algun erro',error)
       getQuotefromAPI();
