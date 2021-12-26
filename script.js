@@ -4,12 +4,17 @@ const sreBtn = document.querySelector('#shareBtn');
 const quoteText = document.querySelector('#quote');
 const quoteAuthor = document.querySelector('#author');
 const spinner = document.getElementById('loader');
+const myToast = document.getElementById('toast');
 const proxyUrl ='https://cors-anywhere.herokuapp.com/';
 const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
 
 
 //get quote from API
 
+function showToast(){
+    myToast.style.display="flex";
+    setTimeout( ()=> myToast.style.display="none" , 1000);
+}
 function showSpiner(){
     if(spinner.hidden)
         spinner.hidden = false;
@@ -37,7 +42,10 @@ async function getQuotefromAPI(){
 }
 
 
-const copyTo =()=>navigator.clipboard.writeText(quoteText.textContent);
+const copyTo =()=>{
+    navigator.clipboard.writeText(quoteText.textContent);
+    showToast();
+}
 
 const twitQuote = ()=>{
     const quote = quoteText.innerText;
