@@ -9,18 +9,15 @@ const proxyUrl ='https://cors-anywhere.herokuapp.com/';
 const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
 
 
-//get quote from API
 
+/*Function to show Toast when user click at copy button*/
 function showToast(){
     myToast.style.display="flex";
     setTimeout( ()=> myToast.style.display="none" , 1000);
 }
-function showSpiner(){
-    if(spinner.hidden)
-        spinner.hidden = false;
-    else
-        spinner.hidden = true;
-}
+
+
+/*Function to get data from api*/
 async function getQuotefromAPI(){
    spinner.hidden = false;
    try {
@@ -41,12 +38,13 @@ async function getQuotefromAPI(){
 
 }
 
-
+/*Function to copy the quote to past anywhere*/
 const copyTo =()=>{
     navigator.clipboard.writeText(quoteText.textContent);
     showToast();
 }
 
+/*Function to share Quote on Twitter*/
 const twitQuote = ()=>{
     const quote = quoteText.innerText;
     const author = quoteAuthor.innerHTML;
