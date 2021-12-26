@@ -48,6 +48,10 @@ body{
   height: 20px;
   animation: spin 2s linear infinite;
 }
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 .controls-container{
   width: 100%;
   display: flex;
