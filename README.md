@@ -33,5 +33,5 @@
 
 ###  twitQuote()
 <p>Função responsável por partilhar a quote no Twitter</p>
-<img style="width:550px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/twitQuote.png">
-toast.png
+<img style="width:550px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/toast.png">
+
