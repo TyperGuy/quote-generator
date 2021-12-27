@@ -1,6 +1,6 @@
 # quote-generator ( Estudo)
 <p>Um Gerador de Quotes simples feito com HTML, CSS e JS.Neste Projecto Consumi uma API rest pública para pegar as Quotes. Para complementar o estudo adiconei botões de funções, Next, Copy e Partilha no Twitter.</p>
-<img style="width:200px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/ui.png">
+<img style="width:600px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/ui.png">
 
 ## Tecnologias usadas
 <div>
