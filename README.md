@@ -31,7 +31,7 @@
 <img style="width:550px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/twitQuote.png">
 
 
-###  twitQuote()
-<p>Função responsável por partilhar a quote no Twitter</p>
+###  showToast()
+<p>Função responsável por mostrar a toast no ecrã</p>
 <img style="width:550px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/toast.png">
 
