@@ -53,7 +53,7 @@ const twitQuote = ()=>{
 
 
 
-nextBtn.addEventListener('click', getQuotefromAPI(proxyUrl,proxyUrl));
+nextBtn.addEventListener('click', getQuotefromAPI(proxyUrl,apiUrl));
 copyBtn.addEventListener('click', copyTo);
 sreBtn.addEventListener('click',twitQuote);
 
