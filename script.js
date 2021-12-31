@@ -18,10 +18,10 @@ function showToast(){
 
 
 /*Function to get data from api*/
-async function getQuotefromAPI(){
+async function getQuotefromAPI(proxyUrl,apiUrl){
    spinner.hidden = false;
    try {
-      const response = await fetch(proxyUrl + apiUrl);
+      const response = await fetch(proxyUrl + apisUrl);
       const data = await response.json();
       quoteText.innerText = data.quoteText;
       quoteAuthor.innerText = "Author: " +data.quoteAuthor;
@@ -59,5 +59,5 @@ nextBtn.addEventListener('click', getQuotefromAPI);
 copyBtn.addEventListener('click', copyTo);
 sreBtn.addEventListener('click',twitQuote);
 
-getQuotefromAPI();
+getQuotefromAPI(proxyUrl,apiUrl);
 
