@@ -5,8 +5,6 @@ const quoteText = document.querySelector('#quote');
 const quoteAuthor = document.querySelector('#author');
 const spinner = document.getElementById('loader');
 const myToast = document.getElementById('toast');
-const proxyUrl ='https://cors-anywhere.herokuapp.com/';
-const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
 
 
 
@@ -18,10 +16,14 @@ function showToast(){
 
 
 /*Function to get data from api*/
-async function getQuotefromAPI(proxyUrl,apiUrl){
+async function getQuotefromAPI(){
+
+   const proxyUrl ='https://cors-anywhere.herokuapp.com/';
+   const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
+
    spinner.hidden = false;
    try {
-      const response = await fetch(proxyUrl + apiUrl);
+      const response = await fetch();
       const data = await response.json();
       quoteText.innerText = data.quoteText;
       quoteAuthor.innerText = "Author: " +data.quoteAuthor;
@@ -31,7 +33,7 @@ async function getQuotefromAPI(proxyUrl,apiUrl){
        spinner.hidden = true;      
   } catch (error) {
       console.log("Uppps, aconteceu algun erro",error)
-      getQuotefromAPI(proxyUrl,apiUrl);
+      getQuotefromAPI();
   }
 
 }
@@ -53,7 +55,7 @@ const twitQuote = ()=>{
 
 
 
-nextBtn.addEventListener('click',getQuotefromAPI(proxyUrl,apiUrl));
+nextBtn.addEventListener('click',getQuotefromAPI());
 copyBtn.addEventListener('click', copyTo);
 sreBtn.addEventListener('click',twitQuote);
 
