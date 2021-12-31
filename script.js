@@ -32,7 +32,7 @@ async function getQuotefromAPI(){
         
        spinner.hidden = true;      
   } catch (error) {
-      console.log('Uppps, aconteceu algun erro',error)
+      console.log("Uppps, aconteceu algun erro",error)
       getQuotefromAPI();
   }
 
