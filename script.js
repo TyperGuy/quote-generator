@@ -55,7 +55,7 @@ const twitQuote = ()=>{
 
 
 
-nextBtn.addEventListener('click', getQuotefromAPI);
+nextBtn.addEventListener('click', getQuotefromAPI());
 copyBtn.addEventListener('click', copyTo);
 sreBtn.addEventListener('click',twitQuote);
 
