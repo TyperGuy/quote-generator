@@ -21,7 +21,7 @@ function showToast(){
 async function getQuotefromAPI(proxyUrl,apiUrl){
    spinner.hidden = false;
    try {
-      const response = await fetch(proxyUrl + apisUrl);
+      const response = await fetch(proxyUrl + apiUrl);
       const data = await response.json();
       quoteText.innerText = data.quoteText;
       quoteAuthor.innerText = "Author: " +data.quoteAuthor;
@@ -33,7 +33,7 @@ async function getQuotefromAPI(proxyUrl,apiUrl){
        spinner.hidden = true;      
   } catch (error) {
       console.log("Uppps, aconteceu algun erro",error)
-      getQuotefromAPI();
+      getQuotefromAPI(proxyUrl,apiUrl);
   }
 
 }
