@@ -26,7 +26,7 @@ async function getQuotefromAPI(proxyUrl,apiUrl){
       quoteText.innerText = data.quoteText;
       quoteAuthor.innerText = "Author: " +data.quoteAuthor;
 
-      (data.quoteAuthor==="")?quoteAuthor.innerText = "Author:  Unkown":quoteAuthor.innerText = "Author:" + " "+data.quoteAuthor; 
+      (data.quoteAuthor==="") ? quoteAuthor.innerText = "Authors:  Unkown":quoteAuthor.innerText = "Author:" + " "+data.quoteAuthor; 
         
        spinner.hidden = true;      
   } catch (error) {
