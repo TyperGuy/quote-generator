@@ -19,7 +19,7 @@ function showToast(){
 
 /*Function to get data from api*/
 async function getQuotefromAPI(){
-   spinner.hidden = false;
+    showSpiner(false) 
    try {
       const response = await fetch(proxyUrl + apiUrl);
       const data = await response.json();
@@ -30,7 +30,7 @@ async function getQuotefromAPI(){
        else
             quoteAuthor.innerText = "Author:" + " "+data.quoteAuthor; 
         
-       spinner.hidden = true;      
+       showSpiner(true)      
   } catch (error) {
       console.log('Uppps, aconteceu algun erro',error)
       getQuotefromAPI();
@@ -43,7 +43,9 @@ const copyTo =()=>{
     navigator.clipboard.writeText(quoteText.textContent);
     showToast();
 }
-
+const showSpiner = (isOpen)=>{
+    spinner.hidden = isOpen;
+}
 /*Function to share Quote on Twitter*/
 const twitQuote = ()=>{
     const quote = quoteText.innerText;
