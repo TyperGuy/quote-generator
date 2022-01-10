@@ -1,5 +1,5 @@
 # quote-generator
-<p>A simple Quote Generator made with ReacJS using NextJS library, Clean Architecture and Typescript. In this Project I used a public rest API to get the Quotes. To complement the study I added function buttons, Next, Copy and Share on Twitter...</p>
+<p>Um Gerador de Quotes simples feito com HTML, CSS e JS.Neste Projecto Consumi uma API rest pública para pegar as Quotes. Para complementar o estudo adiconei botões de funções, Next, Copy e Partilha no Twitter.</p>
 <img style="width:600px;" src="https://github.com/TyperGuy/quote-generator/blob/main/assets/ui.png">
 
 ## Tecnologias usadas
